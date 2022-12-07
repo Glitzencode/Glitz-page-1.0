@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-image: url(../../images/livinglove.jpg);
+  background-image: url(https://scontent.ftpa1-1.fna.fbcdn.net/v/t39.30808-6/285237901_10158805495544849_7002979951314531510_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=omRqC9zKw1AAX_wmpr0&_nc_ht=scontent.ftpa1-1.fna&oh=00_AfBppbeXHJv4BJ_HtwgdqBvM4bDzQ5XqV6-vXswhTlyNJw&oe=6395F115);
+  background-size: 33%;
 }
 
 nav {
@@ -43,4 +44,41 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  color: white;
+  margin-left: 5%;
+}
+
+h2{
+  margin-left: 5%;
+  color: white;
+}
+
+ul{
+  color: white;
+  background-color: gray;
+  opacity: 80%;
+  columns: 2;
+}
+
+p{
+  opacity: 80%;
+  background-color: gray;
+  color: white;
+  padding: 25px;
+  font-weight: bolder;
+}
+
+#headshot{
+  max-width: 65%;
+  position: relative;
+  max-height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 30%;
+  border: 5px dotted gold;
+}
+
+#fblogo{
+  max-width:20%;
+  display: block;
 }
